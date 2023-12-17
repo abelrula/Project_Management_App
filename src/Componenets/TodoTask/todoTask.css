@@ -1,0 +1,40 @@
+
+ 
+.TodayTodo__wavingHand{
+           font-size: 2rem;
+    font-family: monospace;
+    font-family: auto;
+    font-weight: 900;
+    color:black
+ }
+ 
+.TodayTodo{
+          display: flex;
+        flex-direction: column;
+    gap: 40px;
+ }
+.date{
+      font-size: 1.1rem;
+    font-weight: 900;
+    font-family: cursive;
+}
+.time{
+font-size: 1.3rem;
+    color: #9c9ea1;
+}
+.TodayTodo > .greeting{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TodayTodo__view{
+   display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+ 
+  .bargraph{
+        background: #ffffff;
+    border-radius: 20px;
+  }
+ 

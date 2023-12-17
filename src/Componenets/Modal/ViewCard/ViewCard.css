@@ -1,0 +1,143 @@
+.ViewCard{
+       width: 650px;
+    height: 600px;
+    position: relative;
+    border-radius: 10px;
+    }
+   .ViewCard__actions_buttons{
+   background-color: transparent;
+    top: 20px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+   } 
+ .ViewCard__actions_buttons--edit{
+ border-radius: 10px;
+    top: 89px;
+    left: 400px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.7rem;
+    background: darkgrey;
+    } 
+ .ViewCard__actions_buttons--edit:hover{
+   border: solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 1.9rem;
+   
+ }
+    .ViewCard__actions_buttons--delete{
+  border-bottom: solid red; 
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    width: 100px;
+    background: #4b0202;
+    }
+    .ViewCard__actions_buttons--delete:hover{
+   border: solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1.9rem;
+    }
+
+ .ViewCard__actions_buttons--edit{
+   background-color: #7d5555;
+    border-radius: 10px;
+    top: 89px;
+    left: 400px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.7rem;
+ }
+ 
+ .ViewCard__actions_buttons-delete{
+       border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    width: 100px;
+    background: #4b0202;
+ }
+    
+.ViewCard__actions_modal{
+   position: relative;
+    top: 180px;
+    left: 200px;
+    width: 200px;
+     }
+.ViewCard__actions_modal--close{
+   padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1c100b;
+    color: white;
+    font-size: 1.1rem;
+            }
+ .ViewCard__title{
+   top: 90px;
+    left: 30px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.6rem;
+    position: relative;
+    background: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 600;
+ }
+  .ViewCard__description {
+   top: 130px;
+    left: 30px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.4rem;
+    position: relative;
+    background: rgb(255, 255, 255);
+    color: black;
+    text-align: left;
+    line-height: 2rem;
+    padding: 50px;
+    font-weight: 500;
+}
+.ViewCard__text::first-letter{
+    text-transform: uppercase;
+}
+.ViewCard__checkbox{
+   width: 50%;
+    gap: 10px;
+    font-weight: 900;
+    justify-content: center;
+    border-radius: 10px;
+    height: 0px;
+    color: #00ed00;
+    font-size: larger;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: black;
+}
+.ViewCard__checkbox:hover{
+   background-color: #235e23;
+   color:white
+}
+.ViewCard__duration{
+    position: relative;
+    top: 150px;
+}

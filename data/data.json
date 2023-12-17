@@ -1,0 +1,333 @@
+{
+  "todo": [
+    {
+      "id": "yuzsKN5-T64_ZOewwOjnD",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Sat Dec 09 2023 ",
+      "createdAt": "2023-12-09T20:18:13.969Z"
+    },
+    {
+      "id": "Jw89x3iubWBNDagXD1v7s",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Tue Dec 05 2023 ",
+      "createdAt": "2023-12-09T20:18:27.470Z"
+    },
+    {
+      "id": "DW7X9T2a1P98qXivr6gVK",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#B5EAAA",
+      "date": "Tue Dec 05 2023 ",
+      "createdAt": "2023-12-09T20:18:29.136Z"
+    },
+    {
+      "id": "oda9rL_znauq7pEeSgdqo",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Wed Dec 20 2023 ",
+      "createdAt": "2023-12-09T20:18:32.679Z"
+    },
+    {
+      "id": "E8jdjuvVu1UJa8dpKmZoo",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#B5EAAA",
+      "date": "Wed Dec 20 2023 ",
+      "createdAt": "2023-12-09T20:18:34.383Z"
+    },
+    {
+      "id": "VAhx1TNiIgt77qL1BQZPE",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FAFAD2",
+      "date": "Wed Dec 20 2023 ",
+      "createdAt": "2023-12-09T20:18:35.937Z"
+    },
+    {
+      "id": "ksKW9fypj3K66Izfm8Fib",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Sat Dec 09 2023 ",
+      "createdAt": "2023-12-09T20:19:11.454Z"
+    },
+    {
+      "id": "ut2m4shfS520QWmePH03R",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#B5EAAA",
+      "date": "Wed Dec 06 2023 ",
+      "createdAt": "2023-12-09T20:19:14.678Z"
+    },
+    {
+      "id": "I9vQ4HP0EifnqBHd8xeRF",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Wed Dec 06 2023 ",
+      "createdAt": "2023-12-09T20:19:16.950Z"
+    },
+    {
+      "id": "hoo2oA1zvMNbVXZ3Hn2fH",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#FAFAD2",
+      "date": "Wed Dec 06 2023 ",
+      "createdAt": "2023-12-09T20:19:18.502Z"
+    },
+    {
+      "id": "xzVSC3sGlzDYpfuHPufp-",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#FFDB58",
+      "date": "Wed Dec 06 2023 ",
+      "createdAt": "2023-12-09T20:19:20.016Z"
+    },
+    {
+      "id": "HmhhwDObiOwDfl_GjORv-",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Wed Dec 27 2023 ",
+      "createdAt": "2023-12-09T20:19:26.302Z"
+    },
+    {
+      "id": "u8qcbmp4JDo7ocnDJhIpJ",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Sun Dec 10 2023 ",
+      "createdAt": "2023-12-10T06:44:23.010Z"
+    },
+    {
+      "id": "QiX-wclPtYYYdce7BB1Hn",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr 1.yosef:100000 birr",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Sun Dec 10 2023 ",
+      "createdAt": "2023-12-10T06:44:44.593Z"
+    },
+    {
+      "id": "XB5AJHgGH4lQkMYCFvY5q",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Mon Dec 11 2023 ",
+      "createdAt": "2023-12-11T11:52:34.525Z"
+    },
+    {
+      "id": "BADsJXv0yvs9C3PV57xRs",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Mon Dec 11 2023 ",
+      "createdAt": "2023-12-11T11:52:35.298Z"
+    },
+    {
+      "id": "gGrPbJwVH0sU4zWUiX09W",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr 1.abel:300000 birr",
+      "personal": false,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Tue Dec 12 2023 ",
+      "createdAt": "2023-12-12T18:46:16.147Z"
+    },
+    {
+      "id": "fwckXXgDrIIHB9dsUVIol",
+      "title": "",
+      "description": "1.sol:20000 birr 1.sara:30000 birr 1.baba:30000 birr ",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Tue Dec 12 2023 ",
+      "createdAt": "2023-12-12T18:46:28.530Z"
+    },
+    {
+      "id": "KA1uV6HxwX2NH6NDV6qCq",
+      "title": "",
+      "description": "hey i will assign u all the tiings",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Wed Dec 13 2023 ",
+      "createdAt": "2023-12-12T21:22:13.095Z"
+    },
+    {
+      "id": "izkJJCHnYNUpT4qY14rqp",
+      "title": "",
+      "description": " biceps: -hammer,curls,sitted -curl",
+      "personal": true,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Thu Dec 14 2023 ",
+      "createdAt": "2023-12-13T21:11:35.797Z"
+    },
+    {
+      "id": "E-7q6Ge9Ilvatv4hHGCcr",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#F6BE00",
+      "date": "Thu Dec 14 2023 ",
+      "createdAt": "2023-12-13T21:11:55.553Z"
+    },
+    {
+      "id": "RJFqS80IF43KS1BLYrxPT",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#FFD801",
+      "date": "Thu Dec 14 2023 ",
+      "createdAt": "2023-12-13T21:11:59.961Z"
+    },
+    {
+      "id": "0cMXwqpfYpVCt8wVI7y7Z",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#B5EAAA",
+      "date": "Thu Dec 14 2023 ",
+      "createdAt": "2023-12-13T21:12:01.739Z"
+    },
+    {
+      "id": "AaqjQ0HOjBc0T7SdDEfGO",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl",
+      "personal": false,
+      "buisness": true,
+      "completed": false,
+      "tagColor": "#FAFAD2",
+      "date": "Thu Dec 14 2023 ",
+      "createdAt": "2023-12-13T21:12:03.273Z"
+    },
+    {
+      "id": "qomD4J4UCKmiLkz_PmkcW",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": false,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "",
+      "date": "Sun Dec 17 2023 ",
+      "createdAt": "2023-12-16T19:30:19.725Z"
+    },
+    {
+      "id": "zfk1fIMMUHkJxSbLRAQFz",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": false,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "",
+      "date": "Sun Dec 17 2023 ",
+      "createdAt": "2023-12-16T19:30:21.617Z"
+    },
+    {
+      "id": "EyeP7aiG9WfI3F7bzPzHr",
+      "title": "",
+      "description": "biceps: -hammer,curls,sitted -curl ,-sitted hamer triceps: -triceps extension,-skull crush,-triangle push up back: -pull up , -one hand grip pull down",
+      "personal": false,
+      "buisness": false,
+      "completed": false,
+      "tagColor": "",
+      "date": "Sun Dec 17 2023 ",
+      "createdAt": "2023-12-16T19:30:22.836Z"
+    }
+  ],
+  "members": [
+    {
+      "name": "simon Jorge",
+      "profile": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D",
+      "jobCatagory": "project manager",
+      "progress": "80"
+    },
+    {
+      "name": "Tmarcus Brown",
+      "profile": "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fGJsYWNrJTIwbWFsZXN8ZW58MHx8MHx8fDA%3D",
+      "jobCatagory": "UX Designer",
+      "progress": "40"
+    },
+    {
+      "name": "Fabio Lucas",
+      "profile": "https://images.unsplash.com/photo-1631306006348-f9ed42b1e19a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHdvcmslMjBwcm9mZXNpb25hbHN8ZW58MHx8MHx8fDA%3D",
+      "jobCatagory": "Technical support specialist",
+      "progress": "70"
+    },
+    {
+      "name": "Christina Ryoji",
+      "profile": "https://images.unsplash.com/photo-1573496527892-904f897eb744?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D",
+      "jobCatagory": "Sales engineer.",
+      "progress": "25"
+    },
+    {
+      "name": "Ashely jhonson",
+      "profile": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D",
+      "jobCatagory": "Database administrator",
+      "progress": "50"
+    }
+  ]
+}

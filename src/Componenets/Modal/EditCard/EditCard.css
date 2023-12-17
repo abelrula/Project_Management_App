@@ -1,0 +1,97 @@
+.Todo{
+      width: 650px;
+    height: 500px;
+    background-color: #ebebeb;
+    position: relative;
+    border-radius: 10px;
+    border: 3px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+ .Todo__actions_buttons{
+    background-color: transparent;
+    left: 280px;
+    height: 40px;
+    position: relative;
+    }
+ 
+ .Todo__actions_buttons--delete{
+     border-radius: 10px;
+    font-size: 2.4rem;
+    background: none;
+ }
+ .Todo__actions_buttons-delete > *{
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: rgb(128, 14, 14);
+    font-size:1.3rem
+ }
+  .Todo__actions_buttons--delete:hover{
+
+    font-size: 2.7rem;
+  background-color: #832121;
+ } 
+.Todo__actions_modal{
+    width: 250px;
+    display: flex;
+    gap: 100px;
+     }
+     
+     .Todo__actions_modal--close{
+     padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #342d24;
+    color: white;
+    font-size: 0.9rem;
+            }
+
+ .Todo__actions_modal--save{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(235 94 0);
+    color: white;
+    font-size: 0.9rem;
+    }
+    
+     .Todo__inputCont {
+      display: flex;
+      flex-direction: column;
+      gap:10px
+     }
+     .Todo__inputCont > label {
+font-weight: 800;
+
+     }
+.Todo__inputCont--description{
+   border: none;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 1.1rem;
+    width: 500px;
+    min-height: 220px;
+    background: #ffffff;
+    color: #936c25;
+
+}
+.Todo__inputCont--title{
+ border-radius: 10px;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 1.1rem;
+    background: white;
+    color: #8b8b80;
+    font-weight: 600;
+    width: 500px;
+}
+.Todo__title::first-letter{
+   text-transform: uppercase;
+}
+.Todo__text::first-letter{
+    text-transform: uppercase;
+}
+ 

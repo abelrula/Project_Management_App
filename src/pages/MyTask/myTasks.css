@@ -1,0 +1,14 @@
+
+
+.MyTasks{
+   display: flex;
+   flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.MyTasks > div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
