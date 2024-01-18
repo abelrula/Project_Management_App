@@ -8,7 +8,7 @@
     color:black;
  }
  
-.TodayTodo{
+.Dashboard{
           display: flex;
         flex-direction: column;
     gap: 40px;
@@ -27,7 +27,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
 }
-.TodayTodo__view{
+.Dashboard_TaskStatus{
    display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -43,7 +43,56 @@ display: flex;
     gap: 2px;
   }
   .bargraph h5{
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+    font-family: fangsong;
+    font-weight: 100;
+    color: #898981;
   }
- 
+ .Dashboard_TaskCompletion-totalTaskCount{
+         width: 405px;
+    background: transparent;
+    display: flex;
+    height: 320px;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+ }
+  
+.Dashboard_TaskCompletion-doghnutGraph{
+    width: 340px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    height: 310px;
+    background: white;
+    padding: 15px;
+}
+.Dashboard_TaskCompletion-doghnutGraph h5{
+      font-family: system-ui;
+    font-size: 20px;
+    color: #8f9397;
+    text-align: center;
+    font-weight: 100;
+ }
+
+.Dashboard_TaskCompletion-projectComment{
+      display: flex;
+     gap: 10px;
+}
+.Dashboard_TaskCompletion_Project{
+  display: flex;
+    gap: 15px;
+    width: 720px;
+}
+.Dashboard_TaskCompletion_Project-Catagori{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+ }
+

@@ -22,7 +22,7 @@ const TotalWorkinghour = ({
       <div className="workHour__total">
         <h5
           className={
-            title === "Total workings hour"
+            title === "Total-Workings-Hour"
               ? "workHour__total-hour"
               : "workHour__total-revenue"
           }
@@ -31,7 +31,7 @@ const TotalWorkinghour = ({
         </h5>
         <span
           className={
-            title === "Total workings hour"
+            title === "Total-Workings-Hour"
               ? "workHour__header-avg-hour"
               : "workHour__header-avg-revenue"
           }
@@ -50,7 +50,7 @@ const TotalWorkinghour = ({
             <div className="hour" key={i}>
               <div
                 className={
-                  title === "Total workings hour" ? "fillHour" : "fillRevenue"
+                  title === "Total-Workings-Hour" ? "fillHour" : "fillRevenue"
                 }
               >
                 <div

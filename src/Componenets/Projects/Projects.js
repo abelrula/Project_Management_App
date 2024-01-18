@@ -4,7 +4,7 @@ import { MdOutlineAppRegistration } from "react-icons/md";
 import project from "../../data/projects";
 const Projects = ({}) => {
   return (
-    <div className="projectCatagory__cards">
+    <div className="projectCatagory__cards element-with-scroll">
       {project?.map((item, i) => (
         <div
           className="projectCatagory__cards--card"

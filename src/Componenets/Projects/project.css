@@ -1,15 +1,16 @@
 .projectCatagory__cards{
-  display: flex;
-  gap: 10px;
+     display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 5px;
 }
 .projectCatagory__cards--card{
-       display: flex;
+           display: flex;
     flex-direction: column;
     background: #cd895f;
     border-radius: 5px;
-    padding: 25px;
-    width: 200px ;
-    height: 100%;
+    padding: 5px;
+     height: 70px;
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;

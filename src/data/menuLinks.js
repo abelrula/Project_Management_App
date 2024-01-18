@@ -24,11 +24,11 @@ const menuLinks = [
     to: "/",
     icon: <BiHomeAlt2 className="icon" fill="#ffa909" />,
   },
-  {
-    title: "My Tasks",
-    to: "myTasks",
-    icon: <SiCodefactor className="icon" fill="#ffa909" />,
-  },
+  // {
+  //   title: "My Tasks",
+  //   to: "myTasks",
+  //   icon: <SiCodefactor className="icon" fill="#ffa909" />,
+  // },
   {
     title: "Calander Schedules",
     to: "schedule",
