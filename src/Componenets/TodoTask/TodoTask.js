@@ -1,63 +1,78 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useGetTodosQuery } from "../../api/apiSlice";
 import "./todoTask.css";
 import UrgentTask from "../urgentTask/UrgentTask";
 import TeamMembers from "../teamMembers/TeamMembers";
 import CommentSection from "../commentSection/CommentSection";
 import AssignedTask from "../Assignedtask/AssignedTask";
-// import Calendar from "react-calendar";
+import Calendar from "react-calendar";
 import "../../../node_modules/react-calendar/src/Calendar.css";
- import { data } from "../../data/workStatus";
- import {
-   ComposedChart,
-   Line,
-   // Area,
-   Bar,
-   XAxis,
-   YAxis,
-   CartesianGrid,
-   Tooltip,
-   Legend,
- } from "recharts";
- import UserProgress from "../userProgress/UserProgress";
+import Chart from "chart.js/auto";
+import UserProgress from "../userProgress/UserProgress";
+import TotalNumber from "../TotalTaskstatus/TotalNumber";
+import ProjectCatagories from "../ProjectCatagories/ProjectCatagories";
+import { Doughnut } from "react-chartjs-2";
 
- const TodoTask = () => {
-   const { data: todos, isLoading, isSuccess } = useGetTodosQuery();
-   return (
-     <div className="TodayTodo">
-       {isLoading && <h1> Loading...</h1>}
-       <div className="TodayTodo__view">
-         {/* <Calendar value={date} /> */}
-         <UrgentTask />
-         <AssignedTask title="Task I've Assigned" />
-         <UserProgress />
-         <div className="bargraph">
-           <h5>Project Status</h5>
-           <ComposedChart
-             width={400}
-             height={300}
-             data={data}
-             margin={{
-               top: 20,
-               right: 20,
-               bottom: 20,
-               left: 20,
-             }}
-           >
-             <CartesianGrid stroke="#f5f5f5" />
-             <XAxis dataKey="name" scale="band" />
-             <YAxis />
-             <Tooltip />
-             <Legend />
-             <Bar dataKey="uv" barSize={20} fill="#413ea0" />
-             <Line type="monotone" dataKey="uv" stroke="#ff7300" />
-           </ComposedChart>
-         </div>
-         <CommentSection />
-         <TeamMembers />
-       </div>
-     </div>
-   );
- };
+const TodoTask = () => {
+  const { data: todos, isLoading, isSuccess } = useGetTodosQuery();
+  const date = new Date();
+  const chartref = useRef(null);
+  const chartInstance = useRef(null);
+  useEffect(() => {
+    if (chartInstance.current) {
+      chartInstance.current.destroy();
+    }
+    const myChartref = chartref.current.getContext("2d");
+    chartInstance.current = new Chart(myChartref, {
+      type: "doughnut",
+      data: {
+        labels: ["red", "yellow", "blue"],
+        datasets: [
+          {
+            data: [30, 5, 25],
+            backgroundColor: [
+              "rgb(25,00,132)",
+              "rgb(54,162,235)",
+              "rgb(255,205,86)",
+            ],
+          },
+        ],
+      },
+    });
+    return () => {
+      if (chartInstance.current) {
+        chartInstance.current.destroy();
+      }
+    };
+  }, []);
+  return (
+    <div className="Dashboard">
+      {isLoading && <h1> Loading...</h1>}
+      <div className="Dashboard_TaskStatus">
+        <Calendar value={date} />
+        {/* <UrgentTask /> */}
+        <div className="Dashboard_TaskCompletion-doghnutGraph">
+          <h5>Task completion status by this month</h5>
+          <canvas ref={chartref} style={{ width: "300px", height: "300px" }} />
+        </div>
+        {/* <AssignedTask title="Task I've Assigned" /> */}
+        <div className="Dashboard_TaskCompletion-totalTaskCount">
+          <TotalNumber title="Completed tasks" value={17} />
+          <TotalNumber title="Incompleted tasks" value={45} />
+          <TotalNumber title="Overdue tasks" value={30} />
+          <TotalNumber title="Total tasks" value={120} />
+        </div>
+        <div className="Dashboard_TaskCompletion_Project">
+          <div className="Dashboard_TaskCompletion_Project-Catagori">
+            <ProjectCatagories />
+            <CommentSection />
+          </div>
+          <TeamMembers />
+        </div>
+        {/* <UserProgress /> */}
+      </div>
+    </div>
+  );
+};
 
 export default TodoTask;

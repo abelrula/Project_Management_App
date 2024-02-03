@@ -19,8 +19,7 @@
 .sideWord{
     display: flex;
     gap: 10px;
-    margin-top: 20px;
-    text-decoration: none;
+     text-decoration: none;
     padding: 4px 5px;
     display: flex;
     align-items: center;
@@ -28,9 +27,10 @@
      cursor:pointer;
 }
    .sideWord label{
-    color:#979393;
-    font-size:14px;
-     cursor:pointer;
+       color: #979393;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
 
 }
 .side >label:hover ,link:hover{
@@ -44,12 +44,17 @@
 .navigationLinks{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-     align-items: center;
+      align-items: center;
     justify-content: space-between;
    padding: 10px 0;
     height: 100vh;
     width: max-content;
+    margin-top: 45px;
+}
+.navigationTopLinks{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
  .navigationLinks  .icon{
   font-size:larger;
@@ -67,9 +72,8 @@ h4{
 }
 .navigationTBottomLinks{
     display: flex;
-    flex-direction: column;
-    gap:15px;
-   align-items: end;
+     gap: 15px;
+    font-size: 20px;
 }
 .icon:is(:active){
     color:goldenrod

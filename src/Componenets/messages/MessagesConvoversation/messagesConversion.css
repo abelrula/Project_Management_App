@@ -6,6 +6,7 @@
 /* Styling the scrollbar in Chrome and Safari */
 .element-with-scroll::-webkit-scrollbar {
   width: 2px;
+  height: 10px;
 }
 
 .element-with-scroll::-webkit-scrollbar-thumb {

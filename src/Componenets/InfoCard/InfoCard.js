@@ -1,28 +1,18 @@
 import React from "react";
 import "./InfoCard.css";
-const InfoCard = ({ title, buttonTitle, amount, backgroundColor }) => {
+const InfoCard = ({ title, buttonTitle, amount }) => {
   return (
     <div className="card">
       <div className="Container">
         <div className="title">
-          <span>{title}</span>
-          <span
-            style={{
-              color: `${backgroundColor}`,
-              fontSize: "20px",
-              borderRadius: "20px",
-            }}
-          >
-            ...
-          </span>
+          <h3>{title}</h3>
+          <span>...</span>
         </div>
         <div className="Total">
           <span>{amount}</span>
         </div>
         <div className="Add">
-          <button style={{ background: `${backgroundColor}` }}>
-            {buttonTitle}
-          </button>
+          <button>{buttonTitle}</button>
         </div>
       </div>
     </div>

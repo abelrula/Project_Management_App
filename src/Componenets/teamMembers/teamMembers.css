@@ -1,17 +1,19 @@
 .TeamDirectory{
-      display: flex;
+    display: flex;
     flex-direction: column;
     gap: 20px;
     border-radius: 20px;
     box-shadow: 3px 1px 1px 1px #9ca5a5;
-     /* height: 270px; */
-    background: #ffffffad;
-    padding: 20px;
- 
+     background: #ffffffad;
+    padding: 5px;
+    width: 500px;
 }
 .TeamDirectory > h5{
- font-size: 1.2rem;
-    font-family: ui-monospace;
+       font-family: system-ui;
+    font-size: 1.3rem;
+    color: #8f9397;
+    text-align: center;
+    font-weight: 100;
  }
  .TeamDirectory__members{
    display: flex;
@@ -19,6 +21,7 @@
     gap: 5px;
     justify-content: flex-start;
     padding: 0 5px;
+    overflow-y: scroll;
     
   }
  .TeamDirectory__members__member{

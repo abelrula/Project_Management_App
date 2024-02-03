@@ -13,10 +13,10 @@ const TeamMembers = () => {
   }, []);
   return (
     <div className="TeamDirectory">
-      <h5>Team directory</h5>
-      <div className="TeamDirectory__members">
+      <h5>Team-Directory</h5>
+      <div className="TeamDirectory__members element-with-scroll">
         {member?.map((member, i) => (
-          <div className="TeamDirectory__members__member">
+          <div className="TeamDirectory__members__member" key={i}>
             <img src={member.profile} alt="team-directory" />
             <div className="TeamDirectory__members__member--description">
               <h3>{member.name}</h3>

@@ -69,4 +69,4 @@ const MemeberInfo = ({ setShowInfo }) => {
   );
 };
 
-export default MemeberInfo;
+export default React.memo(MemeberInfo);

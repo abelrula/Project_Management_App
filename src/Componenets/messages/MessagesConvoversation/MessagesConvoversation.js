@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, memo, useEffect, useState } from "react";
 import "./messagesConversion.css";
 import { FaVideo } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
@@ -6,11 +6,13 @@ import { useParams } from "react-router-dom";
 import MemeberInfo from "../../memeberInfo/MemeberInfo";
 import { GrAttachment } from "react-icons/gr";
 import { BsEmojiSmile } from "react-icons/bs";
-const MessagesConvoversation = () => {
+import { useDispatch } from "react-redux";
+// import { openProfile } from "../../../redux/slices/modalsSlice";
+const MessagesConvoversation = memo(() => {
   const [messages, setMessages] = useState([]);
   const [showInfo, setShowInfo] = useState(false);
   const { id } = useParams();
-
+  const dispatch = useDispatch();
   useEffect(() => {
     async function fetchMessages() {
       const res = await fetch("http://localhost:3500/conversations/" + id);
@@ -81,6 +83,5 @@ const MessagesConvoversation = () => {
       {showInfo && <MemeberInfo setShowInfo={setShowInfo} />}
     </div>
   );
-};
-
+});
 export default MessagesConvoversation;

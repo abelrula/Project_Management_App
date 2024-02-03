@@ -18,7 +18,7 @@ const MessageList = () => {
   }, []);
   return (
     <div className="messagelist">
-      <NavLink to="/message" className="messageListHeader">
+      <NavLink to="." path="relative" className="messageListHeader">
         Chats
       </NavLink>
       <div className="searchArea">

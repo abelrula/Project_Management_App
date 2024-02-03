@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import { BiBell } from "react-icons/bi";
 import { useLocation } from "react-router-dom";
 const Header = ({ title }) => {
   const date = new Date();
   const { pathname } = useLocation();
+  const [showProfileInfo, setShowProfileInfo] = useState(false);
   console.log(pathname);
   return (
     <div className="header">
@@ -26,7 +27,9 @@ const Header = ({ title }) => {
         <img
           src="https://images.unsplash.com/photo-1562788869-4ed32648eb72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D"
           alt="profile"
+          onClick={() => setShowProfileInfo(true)}
         />
+        {showProfileInfo && <div className="ProfileDesc"></div>}
       </div>
     </div>
   );

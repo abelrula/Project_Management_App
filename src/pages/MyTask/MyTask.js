@@ -17,7 +17,7 @@ const MyTask = () => {
       <div className="MyTasks">
         <div>
           <AssignedTask title="My Task's" />
-          {/* <UserProgress /> */}
+          <UserProgress />
           <Stickywall />
         </div>
         <Form />

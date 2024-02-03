@@ -1,25 +1,32 @@
-.TodayTodo__view--task > h5{
+.TodayTodo__view--task   h5{
    align-items: start;
     display: flex;
     font-size: 1rem;
     margin-top: 10px;
-    font-size: 1.1rem;
+     font-family: fangsong;
+    font-weight: 100;
+    color: #898981;
  }
 
   .TodayTodo__view--task{
-        background: #ffffffad;
+    background: #ffffffad;
     box-shadow: 3px 1px 1px 1px #9ca5a5;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     flex: 1 1;
-    min-width: 440px;
+    min-width: 400px;
     max-width: 400px;
     max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-   .TodayTodo__view--task > ul{
-padding: 10px 0px;
+   .TodayTodo__view--task   ul{
+     padding: 10px 5px;
+    overflow-y: scroll;
+    height: 250px;
    }
-  .TodayTodo__view--task > ul >li{
+  .TodayTodo__view--task   ul  li{
      gap: 20px;
     display: flex;
     margin-top: 15px;
@@ -27,19 +34,19 @@ padding: 10px 0px;
     justify-content: space-between;
     border-bottom: 1px solid #eeeeee;
   }
-  .TodayTodo__view--task > ul >li >span{
+  .TodayTodo__view--task   ul  li  span{
        gap: 20px;
     display: flex;
     align-items: center;
   }
-  .TodayTodo__view--task > ul >li >.left{
+  .TodayTodo__view--task   ul  li  .left{
 display: flex;  
 }
-  .TodayTodo__view--task > ul >li >.left > p{
+  .TodayTodo__view--task   ul  li  .left   p{
     color: red;
     font-weight: 700;
 }
-  .TodayTodo__view--task > ul >li >.right{
+  .TodayTodo__view--task   ul  li  .right{
     display: flex;
     color: #d7a66f;
     gap: 10px;
@@ -55,4 +62,15 @@ width: 8px;
     height: 8px;
     background: black;
     border-radius: 20px;
+}
+.TodayTodo__view--task ul h2{
+  margin: auto;
+    font-size: 20px;
+    font-family: system-ui;
+    color: #7b7a78;
+    width: 100%;
+    height: 100v;
+    position: relative;
+    top: 70px;
+    font-weight: 100;
 }
